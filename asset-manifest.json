@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/luckytrip-react/static/css/main.e4a65a05.css",
-    "main.js": "/luckytrip-react/static/js/main.2ec45753.js",
+    "main.css": "/luckytrip-react/static/css/main.fce32dd3.css",
+    "main.js": "/luckytrip-react/static/js/main.b0afdb37.js",
     "static/media/flightsunset.jpg": "/luckytrip-react/static/media/flightsunset.cbeb86b51842441c9fd8.jpg",
     "static/media/pexels-farhad-irani.jpg": "/luckytrip-react/static/media/pexels-farhad-irani.99eabbe99e9625377000.jpg",
     "static/media/flight sunset1920x660.jpg": "/luckytrip-react/static/media/flight sunset1920x660.0496c41cc8c4e5171c55.jpg",
@@ -9,11 +9,11 @@
     "static/media/lucky trip 2.png": "/luckytrip-react/static/media/lucky trip 2.0ac45d7d9cb9392c7de6.png",
     "static/media/book now.gif": "/luckytrip-react/static/media/book now.977225fc36a7ff57202b.gif",
     "index.html": "/luckytrip-react/index.html",
-    "main.e4a65a05.css.map": "/luckytrip-react/static/css/main.e4a65a05.css.map",
-    "main.2ec45753.js.map": "/luckytrip-react/static/js/main.2ec45753.js.map"
+    "main.fce32dd3.css.map": "/luckytrip-react/static/css/main.fce32dd3.css.map",
+    "main.b0afdb37.js.map": "/luckytrip-react/static/js/main.b0afdb37.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4a65a05.css",
-    "static/js/main.2ec45753.js"
+    "static/css/main.fce32dd3.css",
+    "static/js/main.b0afdb37.js"
   ]
 }
