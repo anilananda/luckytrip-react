@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const data = [
   {
-    image: require("../images/flightsunset.jpg"),
+    image: require("../images/flight sunset1920x660.jpg"),
     caption: "Caption",
     description: "Description Here",
   },
@@ -31,15 +31,16 @@ function HomeCarousel() {
       onSelect={handleSelect}
       interval="5000"
       id="home"
+      style={{ paddingTop: 100 }}
     >
       {data.map((slide, i) => {
         return (
           <Carousel.Item>
             <img
-              className="d-block w-100 img-fluid"
+              className="d-block h-100"
               src={slide.image}
               alt="slider image"
-              style={{ maxHeight: 433, maxWidth: "100%" }}
+              style={{ maxWidth: "100%" }}
             />
             <Carousel.Caption>
               <h3>{slide.caption}</h3>

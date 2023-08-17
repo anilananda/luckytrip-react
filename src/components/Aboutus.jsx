@@ -2,8 +2,8 @@ import React from "react";
 
 function Aboutus() {
   return (
-    <section className="jumbotron text-center pt-5" id="about">
-      <div className="container">
+    <section className="jumbotron text-center " id="about">
+      <div className="container pt-5">
         <h1 className="jumbotron-heading pt-5">About us</h1>
         <div className="col-lg-10 mx-auto">
           <p className="lead mt-4">
