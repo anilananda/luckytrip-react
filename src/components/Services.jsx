@@ -5,9 +5,9 @@ import { VscWorkspaceTrusted } from "react-icons/vsc";
 
 function Services() {
   return (
-    <div>
-      <section className="jumbotron text-center pt-5" id="service">
-        <div className="container">
+    <div id="service">
+      <section className="jumbotron text-center pt-5">
+        <div className="container pt-5">
           <h1 className="jumbotron-heading pt-5">Why to choose us</h1>
           <div className="col-lg-10 mx-auto">
             <p className="lead mt-4">

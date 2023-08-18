@@ -13,7 +13,7 @@ body {
   line-height: 1.7;
   color: var(--body);
 }
-/* 
+/*
 .App {
   text-align: center;
 }
@@ -210,7 +210,16 @@ a {
   max-width: 215px;
 }
 
-.carousel-control-next-icon,
+/* .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  margin-top: 90px !important;
+  margin-top: 125px !important;
+} */
+
+.luckytrip-sticky-top {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 555;
+
+  /* width: "100%", position: "sticky", top: 0, zIndex: 55 */
 }

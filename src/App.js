@@ -6,15 +6,19 @@ import Contact from "./components/Contact";
 import Services from "./components/Services";
 import Staticbackground from "./components/Staticbackground";
 import HomeCarousel from "./components/HomeCarousel";
+import PromotionBanner from "./components/PromotionBanner";
 
 function App() {
   return (
-    <div className="App">
-      <Mainmenu />
+    <div className="App" id="home">
+      <div className="luckytrip-sticky-top">
+        <PromotionBanner />
+        <Mainmenu />
+      </div>
+
+      <Staticbackground />
 
       <HomeCarousel />
-
-      {/* <Staticbackground /> */}
 
       <Aboutus />
 

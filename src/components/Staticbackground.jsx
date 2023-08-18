@@ -7,9 +7,9 @@ const bgStyel = {
   backgroundImage: `url(${ImgFlightSunset})`,
   backgroundPosition: "center",
   backgroundSize: "cover",
-  backgroundAttachment: "fixed",
-  position: "relative",
-  zIndex: "2",
+  // backgroundAttachment: "fixed",
+  // position: "relative",
+  zIndex: "58",
 };
 function Staticbackground() {
   return (

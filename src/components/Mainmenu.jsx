@@ -9,7 +9,7 @@ import Icon from "./Icon";
 
 function Mainmenu() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary fixed-top">
+    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo1} alt="ok" style={{ width: 160 }} />

@@ -31,7 +31,7 @@ function HomeCarousel() {
       onSelect={handleSelect}
       interval="5000"
       id="home"
-      style={{ paddingTop: 100 }}
+      // style={{ paddingTop: 125 }}
     >
       {data.map((slide, i) => {
         return (
