@@ -196,7 +196,7 @@ a {
 .custom-btn {
   background-color: #fe0000 !important;
   border: #fff !important;
-  border-radius: 50px !important;
+  border-radius: 0px !important;
 }
 
 .btn {

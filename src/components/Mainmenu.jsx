@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Button } from "react-bootstrap";
 import logo1 from "../images/lucky trip 2.png";
-import { BsAirplaneFill } from "react-icons/bs";
+import { GoRocket } from "react-icons/go";
 import Icon from "./Icon";
 
 function Mainmenu() {
@@ -35,7 +35,7 @@ function Mainmenu() {
               href="https://booking-luckytrip.co.in/"
               className="custom-btn btn"
             >
-              <BsAirplaneFill />
+              <GoRocket />
               &nbsp;LIVE Booking
             </Button>
           </Nav>
