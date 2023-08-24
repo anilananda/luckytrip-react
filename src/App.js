@@ -11,8 +11,8 @@ import PromotionBanner from "./components/PromotionBanner";
 function App() {
   return (
     <div className="App" id="home">
+      <PromotionBanner />
       <div className="luckytrip-sticky-top">
-        <PromotionBanner />
         <Mainmenu />
       </div>
 
