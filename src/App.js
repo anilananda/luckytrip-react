@@ -1,32 +1,33 @@
 import "./App.css";
-import Mainmenu from "./components/Mainmenu";
-import Footer from "./components/Footer";
-import Aboutus from "./components/Aboutus";
-import Contact from "./components/Contact";
-import Services from "./components/Services";
-import Staticbackground from "./components/Staticbackground";
-import HomeCarousel from "./components/HomeCarousel";
-import PromotionBanner from "./components/PromotionBanner";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Banner from "./components/Admin/Banner";
+import Dashboard from "./components/Admin/Dashboard";
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
     <div className="App" id="home">
-      <PromotionBanner />
-      <div className="luckytrip-sticky-top">
-        <Mainmenu />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/luckytrip-react" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
 
-      <Staticbackground />
-
-      <HomeCarousel />
-
-      <Aboutus />
-
-      <Services />
-
-      <Contact />
-
-      <Footer />
+          <Route path="admin/login" element={<h3>Login page</h3>} />
+          <Route
+            path="/luckytrip-react/admin/dashboard"
+            element={<Dashboard />}
+          ></Route>
+          <Route
+            path="/luckytrip-react/admin/banner"
+            element={<Dashboard component="banner" />}
+          />
+          <Route
+            path="/luckytrip-react/admin/order"
+            element={<Dashboard component="order" />}
+          />
+          <Route path="*" element={<h2>Error 404</h2>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
