@@ -25,21 +25,21 @@ function Staticbackground() {
     // </div>
 
     <div
-      class=" vh-100 d-flex align-items-center"
+      className=" vh-100 d-flex align-items-center"
       style={{ ...bgStyel }}
       id="home"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 mx-auto text-center">
-            <h5 class="display-4 text-white css-typing">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12 mx-auto text-center">
+            <h5 className="display-4 text-white css-typing">
               Now book your flight tickets upto 45% discount
             </h5>
 
             <a className="" href="http://booking-luckytrip.co.in/">
               <img
                 src={ImgBooknow}
-                class="book-now img-responsive"
+                className="book-now img-responsive"
                 alt="http://booking-luckytrip.co.in/"
               />
             </a>

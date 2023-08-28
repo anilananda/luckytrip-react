@@ -11,7 +11,7 @@ function Mainmenu() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="http://localhost:3000/luckytrip-react/">
           <img src={logo1} alt="ok" style={{ width: 160 }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

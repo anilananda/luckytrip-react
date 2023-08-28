@@ -1,13 +1,12 @@
 import React from "react";
+import { Bs2Square } from "react-icons/bs";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand p-2" href="#">
-        Dashboard
-      </a>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-success text-info">
+      <Bs2Square className="me-2 m-3" />
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarTogglerDemo02"
@@ -15,13 +14,13 @@ function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <span className="text-white p-3"> Hello, Mr.Anil</span>
+      <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
+          <li className="nav-item active">
+            <span className="text-dark p-3"> Hello, Mr.Anil</span>
           </li>
         </ul>
       </div>

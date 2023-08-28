@@ -12,9 +12,9 @@ import { Link, Outlet } from "react-router-dom";
 
 function Sidenavbar() {
   return (
-    <div className="d-flex justify-content-between flex-column bg-light text-white p-3 vh-100">
-      <div>
-        <a href="" className="p-2">
+    <div className="d-flex justify-content-between flex-column bg-dark1 text-white p-4 vh-100">
+      <div className="text-warning">
+        <a href="" className="p-3">
           <BsRocketTakeoff className="me-2" />
           <span className="fs-4">LuckyTrip</span>
         </a>
@@ -42,7 +42,7 @@ function Sidenavbar() {
           </li>
 
           <li className="nav-item p-2">
-            <Link to="/report">
+            <Link to="/luckytrip-react/admin/report">
               <BsGrid className="me-2" />
               <span> Report</span>
             </Link>

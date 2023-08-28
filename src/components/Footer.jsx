@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineCloudServer } from "react-icons/ai";
 import Icon from "./Icon";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -8,7 +9,7 @@ function Footer() {
       <div className="footer-top">
         <div className="container">
           <div className="row gy-4 text-start">
-            <div className="col-lg-4 text-white">
+            <div className="col-lg-3 col-md-6 text-white">
               <AiOutlineCloudServer />
               &nbsp;
               <a href="http://booking-luckytrip.co.in/" className="text-white">
@@ -16,8 +17,8 @@ function Footer() {
               </a>
             </div>
 
-            <div className="col-lg-2 text-secondary">
-              <h5 className="text-white ">Quick links</h5>
+            <div className="col-lg-3 text-secondary">
+              <h5 className="text-white ">Quick Links</h5>
               <ul className="list-unstyled ">
                 <li>
                   <a href="#about">About</a>
@@ -25,10 +26,34 @@ function Footer() {
                 <li>
                   <a href="#service">Services</a>
                 </li>
+                <li>
+                  <a href="#service">Contact</a>
+                </li>
               </ul>
             </div>
 
-            <div className="col-lg-4 text-secondary">
+            <div className="col-lg-3 text-secondary">
+              <h5 className="text-white ">Important Links</h5>
+              <ul className="list-unstyled ">
+                <li>
+                  <Link to="/luckytrip-react/privacy">
+                    <span> Privacy Policy</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/luckytrip-react/terms">
+                    <span> Terms And Conditions</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/luckytrip-react/refund">
+                    <span>Refund And Cancellations</span>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div className="col-lg-3 text-secondary">
               <h5 className="text-white">Contact</h5>
               <ul className="list-unstyled">
                 <li>Address: #25 Belthur, Bangalore, Karnataka, 560067</li>

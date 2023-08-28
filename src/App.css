@@ -223,3 +223,38 @@ a {
 
   /* width: "100%", position: "sticky", top: 0, zIndex: 55 */
 }
+
+.react-datetime-picker__wrapper {
+  border: none !important;
+}
+
+.bg-dark1 {
+  background-image: linear-gradient(
+    to right bottom,
+    #ff0f7b,
+    #ff3d61,
+    #ff6049,
+    #ff7f36,
+    #f89b29
+  );
+}
+
+.bg-dark1 > div > a {
+  color: #fffdfe !important;
+}
+
+.bg-dark1 > div > ul > li > a {
+  color: #fffdfe !important;
+}
+
+.bg-dark1 > div > div > a {
+  color: #fffdfe !important;
+}
+
+.cook {
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+  z-index: 88;
+}
