@@ -11,7 +11,7 @@ import { useState, useEffect } from "react";
 import Cookie from "./Cookie";
 
 function HomePage() {
-  const gap = 1693211900000 - new Date().getTime();
+  const gap = 1693500300000 - new Date().getTime();
 
   const bannerData = {
     mainHeading: `🧳Massive Sale up to 75% off 🔥 on UPI payment`,
@@ -24,7 +24,7 @@ function HomePage() {
   const [cookiAccepted, setCookiAccepted] = useState(true);
 
   useEffect(() => {
-    if (document.cookie.indexOf("cooki_accepted=true") == -1) {
+    if (document.cookie.indexOf("cooki_accepted=true") === -1) {
       setCookiAccepted(false);
     }
   }, []);

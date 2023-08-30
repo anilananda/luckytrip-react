@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -33,6 +32,7 @@ function Mainmenu() {
             <Button
               variant="danger"
               href="https://booking-luckytrip.co.in/"
+              target="_blank"
               className="custom-btn btn"
             >
               <GoRocket />

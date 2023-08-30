@@ -36,7 +36,11 @@ function Staticbackground() {
               Now book your flight tickets upto 45% discount
             </h5>
 
-            <a className="" href="http://booking-luckytrip.co.in/">
+            <a
+              className=""
+              href="http://booking-luckytrip.co.in/"
+              target="_blank"
+            >
               <img
                 src={ImgBooknow}
                 className="book-now img-responsive"

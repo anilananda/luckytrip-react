@@ -12,7 +12,11 @@ function Footer() {
             <div className="col-lg-3 col-md-6 text-white">
               <AiOutlineCloudServer />
               &nbsp;
-              <a href="http://booking-luckytrip.co.in/" className="text-white">
+              <a
+                href="http://booking-luckytrip.co.in/"
+                className="text-white"
+                target="_blank"
+              >
                 Visit Our live booking engine
               </a>
             </div>
@@ -67,10 +71,10 @@ function Footer() {
       <div className="footer-bottom py-3">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 text-secondary text-start">
+            <div className="col-md-10 text-secondary text-start">
               <p className="mb-0">© 2022 copyright all right reserved</p>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-2">
               <div className="social-icons">
                 <a href="https://www.facebook.com/blrluckytrip/">
                   <Icon family="Lia" name="LiaFacebookF" />
