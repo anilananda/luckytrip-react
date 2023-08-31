@@ -258,3 +258,36 @@ a {
   width: 100%;
   z-index: 88;
 }
+
+.btn-scroll-top {
+  position: fixed;
+  bottom: 55px;
+  right: 15px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: rgb(253, 253, 253);
+  cursor: pointer;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  opacity: 0;
+  z-index: 99;
+}
+.btn-scroll-top:hover {
+  border: 1px solid red;
+  outline: none;
+  background-color: rgb(253, 251, 251);
+  color: red;
+  transition: all 0.3s;
+}
+
+.btn-scroll-top-icon {
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+.btn-scroll-top-show {
+  opacity: 1;
+}

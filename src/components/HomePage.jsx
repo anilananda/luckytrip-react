@@ -9,6 +9,7 @@ import PromotionBanner from "./PromotionBanner";
 
 import { useState, useEffect } from "react";
 import Cookie from "./Cookie";
+import ScrolltoTop from "./ScrollToTop/ScrolltoTop";
 
 function HomePage() {
   const gap = 1693500300000 - new Date().getTime();
@@ -50,6 +51,7 @@ function HomePage() {
       <Services />
       <Contact />
       <Footer />
+      <ScrolltoTop />
       {!cookiAccepted && (
         <Cookie
           handelCallback={handelCookieCallback}
